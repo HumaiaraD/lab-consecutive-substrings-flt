@@ -1,2 +1,12 @@
 Please add your pseudocode to this file
 And a written explanation of your solution
+
+//PSEUDOCODE•••••••••••••••••••••
+//Create an empty array to store all the new Consecutive Substrings.
+//Use nested for loops to get elments of i(outer loop) and j(inner loop) from the string parameter 
+//Use .slice method to create a new each substrings.
+//Add the new substring by using .push to the  empty array we created
+//Return the array which now has all the values stored inside.
+
+
+//Big O(n2) because the function goes through nested loops.
